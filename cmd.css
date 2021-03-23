@@ -1,0 +1,44 @@
+.container-1,.container-2,.container-3{ 
+   border: 1px solid black;   
+   margin: 0 auto;  
+   width: 75%;  
+   text-align: center;
+}   
+ .flex-box-container-1{  
+    display: flex;
+    border: 1px solid black; 
+    padding: 10px; 
+    flex-wrap : wrap;  
+    justify-content: space-around; 
+ }     
+ .flex-box-container-1 div{   
+    display: flex; 
+    padding: 10px;  
+    border: 1px solid black;  
+    align-items: center; 
+ }  
+ .flex-box-container-2{
+    display:flex;  
+    flex-wrap:wrap; 
+    justify-content: space-around;
+    border:1px solid black;  
+ }   
+ .flex-box-container-2 img{ 
+    margin:10px;   
+    padding: 10px;  
+    margin: 0 auto;
+ }   
+ .imgrock,.imgpaper,.imgss{
+    height:150; 
+    width:150; 
+ }  
+ .rp img:hover{ 
+    box-shadow: 0px 10px 50px rgba(34,78, 250,100)
+
+ }
+ 
+
+
+ 
+  
+  
