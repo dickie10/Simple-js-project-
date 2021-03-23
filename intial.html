@@ -1,0 +1,42 @@
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="cmd.css"> 
+    <title>Document</title>
+</head>   
+<body>    
+    <script src ="Ch.js"></script>
+    <div class="container-1">
+        <h2>Challenge 1: Your Age in days</h2>  
+        <div class="flex-box-container-1"> 
+            <div>
+                <button class="btn btn-primary" onclick ="fun()">click me</button> 
+            </div>  
+            <div> 
+                <button class="btn btn-danger" onclick="reset()">reset</button> 
+            </div>   
+        </div>  
+        <div class="flex-box-container-1"> 
+            <div id="flex-box-result"></div>
+        </div>
+    </div>   
+    <div class ="container-2"> 
+        <h2>Challenge 2! DOG generator</h2>  
+        <button class="btn btn-success" id ="cat-gen" onclick="gencat()">Generate</button> 
+        <div class="flex-box-container-2" id="flexcat"> 
+        </div>
+    </div> 
+    <div class="container-3"> 
+        <h2>Challenge 3! rock, paper, scissors</h2> 
+        <div class = "rp" > 
+            <img  class ="imgrock" id="rock" src="http://www.rockyespy.com/Code%20and%20Functions/Game%20-%20Rock%20Paper%20Scissors/images/rock.png" alt="picture lost?" onclick="rpsgame(this)"> 
+            <img class = "imgpaper" id="paper" src= "http://www.rockyespy.com/Code%20and%20Functions/Game%20-%20Rock%20Paper%20Scissors/images/paper.png" onclick="rpsgame(this)">  
+            <img class="imgss" id="scissor" src= "http://www.rockyespy.com/Code%20and%20Functions/Game%20-%20Rock%20Paper%20Scissors/images/scissors.png" onclick="rpsgame(this)">
+        </div>
+    </div>  
+    </script>          
+</body> 
+</html>    
